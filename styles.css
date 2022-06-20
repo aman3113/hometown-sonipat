@@ -19,11 +19,11 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("sonipat2.JPG");
+  background-image: url("sonipat2.jpg");
   background-size: 100% 400px;
 }
 #hero:hover {
-  background-image: url("sonipat3.JPG");
+  background-image: url("sonipat3.jpg");
 }
 h1 {
   background: #1d3557;
