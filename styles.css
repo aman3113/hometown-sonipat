@@ -1,0 +1,91 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+  margin: 0;
+  text-align: center;
+}
+
+#hero {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("images/sonipat2.jpg");
+  background-size: 100% 400px;
+}
+#hero:hover {
+  background-image: url("images/sonipat3.jpg");
+}
+h1 {
+  background: #1d3557;
+  color: #f1faee;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+h2 {
+  background: #457b9d;
+  color: #f1faee;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.activities-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+#activities {
+  display: flex;
+  padding: 0px 35px;
+  background: #f1faee;
+  height: 343px;
+  align-items: center;
+  justify-content: space-around;
+}
+.activities-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h4,
+h3 {
+  color: #1d3557;
+}
+
+#guide {
+  height: 345px;
+  display: flex;
+  justify-content: center;
+  padding: 50px 160px;
+}
+.guide-card {
+  background: #a8dadc;
+  padding: 23px 13px;
+  width: 400px;
+  height: 295px;
+  display: flex;
+  align-items: center;
+  border-bottom: 5px solid #1d3557;
+  border-radius: 10px;
+}
+.guide-about {
+  padding: 20px;
+}
+
+#avatar {
+  height: 200px;
+  width: 180px;
+}
+.my {
+  font-style: italic;
+}
